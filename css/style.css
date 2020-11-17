@@ -1,0 +1,493 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*ここから*/
+header{
+  height: 70px;
+  background: #000;
+  display: flex;
+  line-height: 70px;
+  justify-content: space-between;
+}
+
+.header-logo{
+  color: #fff;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.header-nav a{
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.header-nav ul{
+  display: flex;
+}
+
+#eyecatch{
+  height: 800px;
+  background:url("../img/eyecatch.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.eyecatch-big{
+  font-size: 45px;
+  font-weight: bold;
+  font-style: italic;
+  color: #fff;
+  position: absolute;
+  top: 420px;
+  left: 150px;
+}
+
+.eyecatch-white{
+  width: 40%;
+  height: 40px;
+  background: #fff;
+  color: #000;
+  font-size: 12px;
+  position: absolute;
+  left: 50%;
+  top: 760px;
+  padding-left: 5px;
+}
+
+.under-date{
+  padding-top: 5px;
+}
+
+.eyecatch-black{
+  background: #000;
+  width: 10%;
+  height: 40px;
+  color: #fff;
+  position: absolute;
+  left: 90%;
+  top: 760px;
+}
+
+#mission{
+  height: 600px;
+  background-color: #000;
+  position: relative;
+}
+
+#mission img{
+  width: 600px;
+  height: 470px;
+  position: absolute;
+  top: 32%;
+  right: 80px;
+}
+
+.mission-black{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+}
+
+.btn1{
+  font-size: 12px;
+  color: #000;
+  padding: 7px 12px;
+  border: 1px #000 solid;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.mission-black h2{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.mission-black p{
+  font-size: 12px;
+  color: #fff;
+  padding: 18px 0;
+  width: 710px;
+  line-height: 16px;
+}
+
+#service1{
+  height: 800px;
+  background-color: #dbd9d9;
+  margin-top: 180px;
+  position: relative;
+}
+
+#service1 h3{
+  font-size: 25px;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+#service1 img{
+  height: 520px;
+  width: 650px;
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
+
+.card1{
+  height: 350px;
+  width: 600px;
+  background-color: #fff;
+  position: absolute;
+  top: 38%;
+  left: 42%;
+  transform: translate(-50%,-50%);
+  position: relative;
+}
+
+.letter1,
+.letter2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 470px;
+}
+
+.card-name{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card1 p,
+.card2 p{
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.btn2{
+  font-size: 12px;
+  color: #000;
+  padding: 7px 12px;
+  border: 1px #000 solid;
+  background-color: #fff;
+  text-decoration: none;
+  float: right;
+}
+
+#service2{
+ height: 800px;
+ background-color: #dbd9d9;
+ position: relative;
+}
+
+#service2 img{
+  height: 520px;
+  width: 650px;
+  position: absolute;
+  left: 0;
+  top: 60px;
+}
+
+.card2{
+  height: 350px;
+  width: 600px;
+  background-color: #fff;
+  position: absolute;
+  top: 48%;
+  left: 55%;
+  transform: translate(-50%,-50%);
+  position: relative;
+}
+
+#works{
+  height: 800px;
+  background-color: #fff;
+  position: relative;
+}
+
+.works-info{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+}
+
+.company-card,
+.recruit-card{
+  height: 220px;
+  width: 45%;
+}
+
+.company-card{
+  background: url("../img/company.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: block;
+}
+
+.recruit-card{
+  background: url("../img/recruit.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.company-card,
+.recruit-card{
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+}
+
+.company-card-text,
+.recruit-card-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.company-card-title,
+.recruit-card-title{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.company-card-ja,
+.recruit-card-ja{
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.FAQ-card{
+  height: 100px;
+  width: 75%;
+  background: #000;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  margin-top: 165px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.FAQ-card-text{
+  display: flex;
+  align-items: center;
+}
+
+.FAQ-card-title{
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  transform: translate(-50%,-50%);
+}
+
+.FAQ-card-ja{
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#contact{
+  height: 730px;
+  background: url("../img/contact-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.contact-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.contact-title{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+.contact-list{
+  color: #fff;
+  text-align: center;
+}
+
+.contact-list1{
+  font-size: 14px;
+  font-weight: bold;
+  margin: 12px 0 20px 0;
+}
+
+.contact-list2{
+  font-size: 22px;
+}
+
+.contact-list3{
+  font-size: 12px;
+  margin: 20px 0;
+  white-space: nowrap;
+}
+
+.contact-btn{
+  font-size: 14px;
+  border: 1px solid #fff;
+  padding: 8px 14px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 2px;
+}
+
+.contact-btn:hover{
+  color: #000;
+  background: #fff;
+}
+
+footer{
+  height: 70px;
+  background: #000;
+  padding-top: 14px;
+}
+
+.footer-text{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.footer-logo{
+  color: #fff;
+  font-size: 16px;
+  margin-left: 30px;
+}
+
+.footer-nav a{
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.footer-nav ul{
+  display: flex;
+}
+
+footer p{
+  color: #fff;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-around;
+}
