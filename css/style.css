@@ -167,10 +167,19 @@ header{
   background: #000;
   width: 10%;
   height: 40px;
-  color: #fff;
   position: absolute;
   left: 90%;
   top: 760px;
+  position: relative;
+}
+
+.eyecatch-black p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  font-size: 12px;
 }
 
 #mission{
